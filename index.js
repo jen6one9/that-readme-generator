@@ -4,63 +4,58 @@ inquirer
 .prompt([
     {
         type: "input",
-        message: "What is your title?",
+        message: "What is the title of your project?",
         name: "Title"
 
     },
     {
         type: "input",
-        message: "What is your description?",
-        name: "description"
+        message: "Describe your project and its features.",
+        name: "Description"
 
     },
 
     {
         type: "input",
         message: "What is your Table of Contents?",
-        name: "table of contents"
+        name: "Table of Contents"
 
     },
 
     {
         type: "input",
         message: "How do you install your app?",
-        name: "installation"
+        name: "Installation"
 
     },
 
     {
         type: "input",
         message: "How do you use your app?",
-        name: "usage"
+        name: "Usage"
 
     },
     {
         type: "input",
         message: "Do you have license info?",
-        name: "usage"
+        name: "License"
 
     },
     {
         type: "input",
-        message: "Any Contributors you want to document?",
-        name: "usage"
+        message: "Are there any contributors you want to recognize?",
+        name: "Contributions"
 
     },
-    {
-        type: "input",
+    {  type: "input",
         message: "Tests",
-        name: "usage"
+        name: "Tests" 
 
     },
     {
         type: "input",
         message: "Questions",
-        name: "usage"
+        name: "Questions"
 
     },
 ])
-.then(function(response) {
-
-    console.log(name);
-      });
