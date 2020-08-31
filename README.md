@@ -17,6 +17,11 @@ This project seeks to create a command line application that allows user input u
 ## Installation
 Step 1. Clone this GitHub Repo Step 2. Run npm init on your local terminal Step 3. Run node index.js on your command line Step 4. Complete all prompts Step 5. Navigate to your README.md and preview your file by right clicking on the README.md and selecting Open Preview. 
 
+# Demo
+Play this demo to see how the app functions [Click here](https://drive.google.com/file/d/1_xUb0MZ_cAgjMrP5Y49RvdLIMPCJ-cpW/view?usp=sharing).
+
+
+
 ##  Usage
 This app is intended for free use.
 
