@@ -1,12 +1,12 @@
 
-# That ReadMe Generator
+# that-readme-generator
 
 ## Developer Profile
 https://github.com/jen6one9
 
 ## Description
 
-command line application that takes user inputs to dynamically generate a README.md file
+This project seeks to create a command line application that allows user input using the inquirer package to dynamically generate a README.md file.
 ## Table of Contents
 1. [Installation](#installation)
 2. [Usage](#usage)
@@ -15,10 +15,10 @@ command line application that takes user inputs to dynamically generate a README
 5. [Tests](#tests)
 
 ## Installation
-1. Clone the repo 2. npm init on the command line 
+Step 1. Clone this GitHub Repo Step 2. Run npm init on your local terminal Step 3. Run node index.js on your command line Step 4. Complete all prompts Step 5. Navigate to your README.md and preview your file by right clicking on the README.md and selecting Open Preview. 
 
 ##  Usage
-Free
+This app is intended for free use.
 
 ##  License
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
@@ -28,7 +28,7 @@ Free
 N/A
 
 ##  Tests
-No automated tests at this time. User can run console.logs
+There are no automated scripts at this time. Users can use console.log to incrementally test their code.
 
 ##  Questions
-Please reach out to me with any questions. diesta.jeneth@gmail.com
+Please reach out to me with any questions via diesta.jeneth@gmail.com

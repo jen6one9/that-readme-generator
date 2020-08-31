@@ -1,5 +1,5 @@
 var inquirer = require("inquirer");
-const fs =require('fs');
+const fs = require('fs');
 // const util = require('util');
 
 // Prompt the user with questions
@@ -16,16 +16,16 @@ inquirer
             type: "input",
             message: "Describe your project and its features.",
             name: "Description"
-                        // console.log(response.description)
-            
-            
+            // console.log(response.description)
+
+
 
         },
         {
             type: "input",
             message: "Provide detailed instructions for installing your app.",
             name: "Installation"
-                        // console.log(response.installation)
+            // console.log(response.installation)
 
         },
 
@@ -33,28 +33,28 @@ inquirer
             type: "input",
             message: "Please provide usage information for your app.",
             name: "Usage"
-                        // console.log(response.usage)
+            // console.log(response.usage)
 
         },
         {
             type: "input",
             message: "Do you have license info?",
             name: "License"
-                        // console.log(response.license)
+            // console.log(response.license)
 
         },
         {
             type: "input",
             message: "Are there any contributors you want to recognize?",
             name: "Contributions"
-                        // console.log(response.contributions)
+            // console.log(response.contributions)
 
         },
         {
             type: "input",
             message: "What tests can be used to run this application?",
             name: "Tests"
-                        // console.log(response.tests)
+            // console.log(response.tests)
 
         },
         {
@@ -72,9 +72,9 @@ inquirer
         }
     ])
 
-.then(function (response) {
+    .then(function (response) {
         console.log(response);
-        var READMEdata= `
+        var READMEdata = `
 # ${response.Title}
 
 ## Developer Profile
@@ -107,18 +107,18 @@ ${response.Contributions}
 ${response.Tests}
 
 ##  Questions
-Please reach out to me with any questions. ${response.Email}`
-console.log(READMEdata);
-fs.writeFileSync("./README.md", READMEdata, function(){
-    console.log("READMEgenerated");
-})
-})
-.catch(function (error){
-    console.log('error', error);
+Please reach out to me with any questions via ${response.Email}`
+        console.log(READMEdata);
+        fs.writeFileSync("./README.md", READMEdata, function () {
+            console.log("READMEgenerated");
+        })
+    })
+    .catch(function (error) {
+        console.log('error', error);
 
 
-// .then(function({ Title, Description, Installation, Usage, License, Contributions, Tests, GitHubUser,Email}) {
+        // .then(function({ Title, Description, Installation, Usage, License, Contributions, Tests, GitHubUser,Email}) {
 
-});
+    });
 
 
