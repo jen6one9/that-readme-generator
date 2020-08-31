@@ -15,10 +15,18 @@ This project seeks to create a command line application that allows user input u
 5. [Tests](#tests)
 
 ## Installation
-Step 1. Clone this GitHub Repo   
+Step 1. Clone this GitHub Repo
+
+
 Step 2. Run npm init on your local terminal 
+
+
 Step 3. Run node index.js on your command line 
+
+
 Step 4. Complete all prompts 
+
+
 Step 5. Navigate to your README.md and preview your file by right clicking on the README.md and selecting Open Preview. 
 
 # Demo
